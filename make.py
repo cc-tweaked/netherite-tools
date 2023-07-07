@@ -9,23 +9,31 @@ tools: dict[str, dict] = {
         "item": "minecraft:netherite_axe",
         "adjective": "upgrade.minecraft.diamond_axe.adjective",
         "damageMultiplier": 6,
+        "allowEnchantments": True,
+        "consumeDurability": "when_enchanted",
     },
     "minecraft:netherite_pickaxe": {
         "type": "computercraft:tool",
         "item": "minecraft:netherite_pickaxe",
         "adjective": "upgrade.minecraft.diamond_pickaxe.adjective",
+        "allowEnchantments": True,
+        "consumeDurability": "when_enchanted",
     },
     "minecraft:netherite_hoe": {
         "type": "computercraft:tool",
         "item": "minecraft:netherite_hoe",
         "adjective": "upgrade.minecraft.diamond_hoe.adjective",
         "breakable": "computercraft:turtle_hoe_harvestable",
+        "allowEnchantments": True,
+        "consumeDurability": "when_enchanted",
     },
     "minecraft:netherite_shovel": {
         "type": "computercraft:tool",
         "item": "minecraft:netherite_shovel",
         "adjective": "upgrade.minecraft.diamond_shovel.adjective",
         "breakable": "computercraft:turtle_shovel_harvestable",
+        "allowEnchantments": True,
+        "consumeDurability": "when_enchanted",
     },
     "minecraft:netherite_sword": {
         "type": "computercraft:tool",
@@ -33,6 +41,8 @@ tools: dict[str, dict] = {
         "adjective": "upgrade.minecraft.diamond_sword.adjective",
         "breakable": "computercraft:turtle_sword_harvestable",
         "damageMultiplier": 9,
+        "allowEnchantments": True,
+        "consumeDurability": "when_enchanted",
     },
 }
 
