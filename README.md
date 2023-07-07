@@ -1,6 +1,6 @@
 # netherite-tools
-A datapack which adds Netherite tools to ComputerCraft. They don't have any benefits over diamond tools, as turtles
-instabreak blocks and don't consume durability, but are a great show of opulence.
+A datapack which adds Netherite tools to ComputerCraft. Unlike diamond tools, netherite tools can be enchanted, at the
+cost of consuming durability.
 
 ## Usage
  - Download the pack from the "Releases" tab.
